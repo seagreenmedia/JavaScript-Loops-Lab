@@ -1,5 +1,5 @@
 # JavaScript-Loops-Lab
-Complete all of the functions in the **LoopFun** class. Descriptions and examples of what each function does can be found below.
+Complete all of the problems in the **LoopFun** class. Descriptions and examples for each problem can be found below.
 
 
 ## 1) One to Ten
@@ -60,7 +60,7 @@ Calculates the sum of the number from n to, but not including m, and returns the
 
 35
 
-## 5) areWeThereYet()
+## 5) Are We There Yet
 
 Should prompt the user "Are we there yet?" until the user enters "Yes". When the user enters "Yes", the program should display "Good!" in the console and exit.
 
@@ -86,11 +86,13 @@ Should use nested loops to produce the following pattern in the console.
 
 ### Example
 
-* <br>
-** <br>
-*** <br>
-**** <br>
-***** <br>
+```
+*
+** 
+*** 
+**** 
+***** 
+```
 
 ## 7) Table Square
 
@@ -105,7 +107,6 @@ A 4 x 4 table square
  | 2 |  4 |  6 |  8 |
  | 3 |  6 |  9 | 12 |
  | 4 |  8 | 12 | 16 |
- 
  ```
 
 ## 8) Table Square 2
