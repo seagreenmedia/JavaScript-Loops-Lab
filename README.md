@@ -2,12 +2,11 @@
 Complete all of the functions in the **LoopFun** class. Descriptions and examples of what each function does can be found below.
 
 
-## 1) oneToTen()
+## 1) One to Ten
 Displays the numbers 1 to 10 in the console.<br>
 
 ### Example
-oneToTen()<br>
-*** Output ***<br>
+
 1<br>
 2<br>
 3<br>
@@ -19,12 +18,10 @@ oneToTen()<br>
 9<br>
 10<br>
 
-## 2) squares()
+## 2) Squares
 Displays the square numbers up to 100 in the console.
 
 ### Example<br>
-squares()<br>
-*** Output *** <br>
 1<br>
 4<br>
 9<br>
@@ -36,12 +33,13 @@ squares()<br>
 81<br>
 100<br>
 
-## 3) evenUnderN(n)
+## 3) Even Under N
 Displays the positive even number less then n in the console
 
-### Example<br>
-even(20)<br>
-*** Output *** <br>
+### Example
+
+n = 20
+
 2<br>
 4<br>
 6<br>
@@ -52,50 +50,55 @@ even(20)<br>
 16<br>
 18<br>
 
-## 4) sum(n, m)
+## 4) Sum
 Calculates the sum of the number from n to, but not including m, and returns the answer.
 
 ### Example<br>
-sum(5,10)<br>
-*** Output *** <br>
+(5,10)
+
+*** Output ***
+
 35
 
 ## 5) areWeThereYet()
 
 Should prompt the user "Are we there yet?" until the user enters "Yes". When the user enters "Yes", the program should display "Good!" in the console and exit.
 
-### Example<br>
-areWeThereYet()<br>
-*** Output *** <br>
-"Are we there yet?"<br>
-No<br>
-"Are we there yet?"<br>
-Spoons<br>
-"Are we there yet?"<br>
-Yes<br>
-Good!<br>
+### Example
 
-## 6) triangle()
+"Are we there yet?"
+
+No
+
+"Are we there yet?"
+
+Spoons
+
+"Are we there yet?"
+
+Yes
+
+Good!
+
+## 6) Triangle
 
 Should use nested loops to produce the following pattern in the console.
 
-### Example<br>
-triangle()<br>
-*** Output *** <br>
+### Example
+
 * <br>
 ** <br>
 *** <br>
 **** <br>
 ***** <br>
 
-## 7) tableSquare()
+## 7) Table Square
 
 Should use nested loops to produce a 4x4 table square in the console.
 
-### Example<br>
-tableSquare()<br>
-*** Output *** <br>
-A 4 x 4 table square<br>
+### Example
+
+A 4 x 4 table square
 
  ```
  | 1 |  2 |  3 |  4 |
@@ -105,14 +108,13 @@ A 4 x 4 table square<br>
  
  ```
 
-## 8) tableSquare(n)
+## 8) Table Square 2
 
 Extend your answer to the last question to produce an NxN table square in the console
 
-### Example<br>
- tableSquares(6)<br>
- *** Output *** <br>
- A 6 x 6 table square<br>
+### Example
+
+ A 6 x 6 table square
  
  ```
  | 1 |  2 |  3 |  4 |  5 |  6 |
@@ -123,3 +125,4 @@ Extend your answer to the last question to produce an NxN table square in the co
  | 6 | 12 | 18 | 24 | 30 | 36 |
  ```
  
+***Happy Hacking!***
