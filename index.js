@@ -13,11 +13,11 @@ for (let i = 2; i < 20; i += 2) {
 }
 
 
-let count = 0;
+let n = Number(prompt("Pick a number:"));
+let m = Number(prompt("Pick another number:"));
 let total = 0;
-while (count < 9) {
-    total += count;
-    count++
+for (let i = n; i < m; i++) {
+    total += i;
 }
 console.log(total);
 
@@ -41,7 +41,7 @@ for (let i = 1; i < 6; i++) {
 
 for (let i = 1; i < 5; i++) {
     let output = "| ";
-    for (let j = 1; j <= i; j++) {
+    for (let j = 1; j <= 4; j++) {
         output += i * j + " | "
     }
     console.log(output);
@@ -50,8 +50,8 @@ for (let i = 1; i < 5; i++) {
 
 for (let i = 1; i < 7; i++) {
     let output = "| ";
-    for (let j = 1; j <= i; j++) {
-        output += i * j + " | ";
+    for (let j = 1; j <= 6; j++) {
+        output += (i * j) + " | ";
     }
     console.log(output);
 }
